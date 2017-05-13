@@ -31,9 +31,9 @@ public class Tools extends JToolBar{
     public Tools(JDesktopPane desktop){
         this.desktop = desktop;
         try {
-            add(createButton("images/addIcon.png",addAction));
-            add(createButton("images/saveIcon.jpg", saveAction));
-            add(createButton("images/closeIcon.png", closeAction));
+            add(createButton("../images/addIcon.png",addAction));
+            add(createButton("../images/saveIcon.jpg", saveAction));
+            add(createButton("../images/closeIcon.png", closeAction));
             
             documents = new DocumentsList();
             JScrollPane scroll = new JScrollPane(documents, 
